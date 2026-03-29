@@ -1,0 +1,13 @@
+# ============================================================
+# EJEMPLO de variables — copia a terraform.tfvars y edita
+# NO commitees terraform.tfvars si contiene datos sensibles
+# ============================================================
+
+aws_region   = "eu-south-2"
+environment  = "prod"
+bucket_name  = "s3-andresteloexplica"
+
+domain_name  = "andresexplica.com"
+
+cloudfront_price_class = "PriceClass_100"
+default_root_object    = "index.html"

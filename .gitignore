@@ -1,0 +1,15 @@
+# Estado de Terraform (puede contener datos sensibles)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Variables con valores reales
+terraform.tfvars
+*.auto.tfvars
+
+# Directorio de trabajo de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Planes guardados
+*.tfplan
